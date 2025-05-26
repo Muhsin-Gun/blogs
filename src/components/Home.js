@@ -1,7 +1,7 @@
 import BlogList from "./BlogList";
-import UseFetch from "./`UseFetch";
-const HomePage =() =>{
-    const {data}=UseFetch('http://localhost:4000/blogs');
+import UseFetch from "./UseFetch";
+const Home =() =>{
+    const {data}=UseFetch('http://localhost:4001/blogs');
     return(
         <div className="home">
             
@@ -10,4 +10,4 @@ const HomePage =() =>{
 
     );
 }
-export default HomePage;
+export default Home;
