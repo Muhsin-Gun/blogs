@@ -25,7 +25,7 @@ const handleChange = (e) => {
 
 const handleSubmit = (e) => {
     e.preventDefault();
-       axios.post('http://localhost:4000/blogs', data)
+       axios.post('http://localhost:4001/blogs', data)
         .then(res => {
             toast.success("post created successfully", {
                 position: "top-right",
